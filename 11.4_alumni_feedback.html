@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .question {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ALUMNI FEEDBACK FORM(ASHFB-04)
+</h1>
+Dear Alumni
+Srusti Academy of Management has always valued you as an esteemed alumnus of this institute and sought your feedback as a part of the continuous improvement in academic and professional aspects. Please go through the following questionnaire and provide you valuable response. 
+
+<form action="11.4_process_feedback.php" method="post">
+    <input type="hidden" name="feedback_name" value="ALUMNI FEEDBACK">
+            <div class="question">
+                <label>1. The institute is continuously putting in effort to  create a center of excellence for high-quality learning, research & consultancy in the area of Management.</label><br>
+                <input type="radio" name="q1" value="1"> 1
+                <input type="radio" name="q1" value="2"> 2
+                <input type="radio" name="q1" value="3"> 3
+                <input type="radio" name="q1" value="4"> 4
+                <input type="radio" name="q1" value="5"> 5
+            </div>
+            <div class="question">
+                <label>2. The institute has prepared the students to meet the global need of competent and dedicated professionals.</label><br>
+                <input type="radio" name="q2" value="1"> 1
+                <input type="radio" name="q2" value="2"> 2
+                <input type="radio" name="q2" value="3"> 3
+                <input type="radio" name="q2" value="4"> 4
+                <input type="radio" name="q2" value="5"> 5
+            </div>
+            <div class="question">
+                <label>3. The institute has prepared the students for Excellent professional careers.</label><br>
+                <input type="radio" name="q3" value="1"> 1
+                <input type="radio" name="q3" value="2"> 2
+                <input type="radio" name="q3" value="3"> 3
+                <input type="radio" name="q3" value="4"> 4
+                <input type="radio" name="q3" value="5"> 5
+            </div>
+            <div class="question">
+                <label>4. The student has developed ability to design and conduct research, analyze and interpret data for effective decision making.</label><br>
+                <input type="radio" name="q4" value="1"> 1
+                <input type="radio" name="q4" value="2"> 2
+                <input type="radio" name="q4" value="3"> 3
+                <input type="radio" name="q4" value="4"> 4
+                <input type="radio" name="q4" value="5"> 5
+            </div>
+            <div class="question">
+                <label>5. The student has developed strong fundamental concepts on core Management principles.</label><br>
+                <input type="radio" name="q5" value="1"> 1
+                <input type="radio" name="q5" value="2"> 2
+                <input type="radio" name="q5" value="3"> 3
+                <input type="radio" name="q5" value="4"> 4
+                <input type="radio" name="q5" value="5"> 5
+            </div>
+            <div class="question">
+                <label>6. The student has developed the ability to work cooperatively, creatively and responsibly in a multi disciplinary team.</label><br>
+                <input type="radio" name="q6" value="1"> 1
+                <input type="radio" name="q6" value="2"> 2
+                <input type="radio" name="q6" value="3"> 3
+                <input type="radio" name="q6" value="4"> 4
+                <input type="radio" name="q6" value="5"> 5
+            </div>
+             <div class="question">
+                <label>7. The student has developed the ability to respond positively to the accepted norms of professional and ethical responsibility.</label><br>
+                <input type="radio" name="q7" value="1"> 1
+                <input type="radio" name="q7" value="2"> 2
+                <input type="radio" name="q7" value="3"> 3
+                <input type="radio" name="q7" value="4"> 4
+                <input type="radio" name="q7" value="5"> 5
+            </div>
+            <div class="question">
+                <label>8. The student has developed ability to communicate effectively by oral, written and various presentation skills using communication tools.</label><br>
+                <input type="radio" name="q8" value="1"> 1
+                <input type="radio" name="q8" value="2"> 2
+                <input type="radio" name="q8" value="3"> 3
+                <input type="radio" name="q8" value="4"> 4
+                <input type="radio" name="q8" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>9. The students have developed innovative approach to various contemporary issues in management..</label><br>
+                <input type="radio" name="q9" value="1"> 1
+                <input type="radio" name="q9" value="2"> 2
+                <input type="radio" name="q9" value="3"> 3
+                <input type="radio" name="q9" value="4"> 4
+                <input type="radio" name="q9" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>10. Do you feel proud to be associated with Srusti Academy of Management as an Alumni.</label><br>
+                <input type="radio" name="q10" value="1"> 1
+                <input type="radio" name="q10" value="2"> 2
+                <input type="radio" name="q10" value="3"> 3
+                <input type="radio" name="q10" value="4"> 4
+                <input type="radio" name="q10" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>11. Are you willing to contribute to the development of the college.</label><br>
+                <input type="radio" name="q11" value="1"> 1
+                <input type="radio" name="q11" value="2"> 2
+                <input type="radio" name="q11" value="3"> 3
+                <input type="radio" name="q11" value="4"> 4
+                <input type="radio" name="q11" value="5"> 5
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

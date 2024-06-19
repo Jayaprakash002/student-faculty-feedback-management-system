@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .question {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>STUDENTS SATISFACTION FEEDBACK (AFB-05) </h2>
+        Directions:
+For each item please indicate your level of agreement with the following statement by choosing a score between 1 and 5. A Higher score indicates a stronger agreement with the statement.
+
+<form action="11.2_process_feedback.php" method="post">
+    <input type="hidden" name="feedback_name" value="STD.SATISFACTION FEEDBACK">
+            <div class="question">
+                <label>A. KNOWLEDGE</label><br>
+                <label>1. Knowledge in the course studied provides in depth for course progression and relevant to career aspirations.</label>
+                <input type="radio" name="q1" value="1"> 1
+                <input type="radio" name="q1" value="2"> 2
+                <input type="radio" name="q1" value="3"> 3
+                <input type="radio" name="q1" value="4"> 4
+                <input type="radio" name="q1" value="5"> 5
+            </div>
+            <div class="question">
+                <label>2. Teaching methods adopted help to acquire the conceptual clarity on the subjects.</label>
+                <input type="radio" name="q2" value="1"> 1
+                <input type="radio" name="q2" value="2"> 2
+                <input type="radio" name="q2" value="3"> 3
+                <input type="radio" name="q2" value="4"> 4
+                <input type="radio" name="q2" value="5"> 5
+            </div>
+            <div class="question">
+                <label>3. The quality of teaching helps in linking the knowledge content to application.</label>
+                <input type="radio" name="q3" value="1"> 1
+                <input type="radio" name="q3" value="2"> 2
+                <input type="radio" name="q3" value="3"> 3
+                <input type="radio" name="q3" value="4"> 4
+                <input type="radio" name="q3" value="5"> 5
+            </div>
+            <div class="question">
+                <label>4. The teacher communicates clearly.</label>
+                <input type="radio" name="q4" value="1"> 1
+                <input type="radio" name="q4" value="2"> 2
+                <input type="radio" name="q4" value="3"> 3
+                <input type="radio" name="q4" value="4"> 4
+                <input type="radio" name="q4" value="5"> 5
+            </div>
+
+            <div class="question">
+                <label>B. SKILLS:  The theoretical and the practical inputs given in the course content helped to develop</label><br>
+                <label>1. Skills to analyse problems and cases in the course/program.</label>
+                <input type="radio" name="q5" value="1"> 1
+                <input type="radio" name="q5" value="2"> 2
+                <input type="radio" name="q5" value="3"> 3
+                <input type="radio" name="q5" value="4"> 4
+                <input type="radio" name="q5" value="5"> 5
+            </div>
+            <div class="question">
+                <label>2. Design and develop system and processes.</label>
+                <input type="radio" name="q5" value="1"> 1
+                <input type="radio" name="q5" value="2"> 2
+                <input type="radio" name="q5" value="3"> 3
+                <input type="radio" name="q5" value="4"> 4
+                <input type="radio" name="q5" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>3. Problem solving skills in the domain.</label>
+                <input type="radio" name="q6" value="1"> 1
+                <input type="radio" name="q6" value="2"> 2
+                <input type="radio" name="q6" value="3"> 3
+                <input type="radio" name="q6" value="4"> 4
+                <input type="radio" name="q6" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>4. Skills in devising reports and communicate well with the domain experts.</label>
+                <input type="radio" name="q7" value="1"> 1
+                <input type="radio" name="q7" value="2"> 2
+                <input type="radio" name="q7" value="3"> 3
+                <input type="radio" name="q7" value="4"> 4
+                <input type="radio" name="q7" value="5"> 5
+            </div>
+            
+            <div class="question">
+                <label>C. APPLICATION</label><br>
+                <label>1. Ability to apply techniques to coordinate activities among functional areas.</label>
+                <input type="radio" name="q8" value="1"> 1
+                <input type="radio" name="q8" value="2"> 2
+                <input type="radio" name="q8" value="3"> 3
+                <input type="radio" name="q8" value="4"> 4
+                <input type="radio" name="q8" value="5"> 5
+            </div>
+            <div class="question">
+                <label>2. Ability to apply management techniques in decision making.</label>
+                <input type="radio" name="q9" value="1"> 1
+                <input type="radio" name="q9" value="2"> 2
+                <input type="radio" name="q9" value="3"> 3
+                <input type="radio" name="q9" value="4"> 4
+                <input type="radio" name="q9" value="5"> 5
+            </div>
+            <div class="question">
+                <label>D. ATTITUDE</label><br>
+                <label>1. Ability to work individually and cohesively in a team environment.</label>
+                <input type="radio" name="q10" value="1"> 1
+                <input type="radio" name="q10" value="2"> 2
+                <input type="radio" name="q10" value="3"> 3
+                <input type="radio" name="q10" value="4"> 4
+                <input type="radio" name="q10" value="5"> 5
+            </div>  
+            <div class="question">
+                <label>2. Course content prepares us to plan out solutions for societal needs.</label>
+                <input type="radio" name="q11" value="1"> 1
+                <input type="radio" name="q11" value="2"> 2
+                <input type="radio" name="q11" value="3"> 3
+                <input type="radio" name="q11" value="4"> 4
+                <input type="radio" name="q11" value="5"> 5
+            </div>
+             <div class="question">
+                <label>3. Course content helps us to understand and create eco-friendly solutions.</label>
+                <input type="radio" name="q12" value="1"> 1
+                <input type="radio" name="q12" value="2"> 2
+                <input type="radio" name="q12" value="3"> 3
+                <input type="radio" name="q12" value="4"> 4
+                <input type="radio" name="q12" value="5"> 5
+            </div>
+            <div class="question">
+                <label>4. I am aware of the ethical code and practice.</label>
+                <input type="radio" name="q13" value="1"> 1
+                <input type="radio" name="q13" value="2"> 2
+                <input type="radio" name="q13" value="3"> 3
+                <input type="radio" name="q13" value="4"> 4
+                <input type="radio" name="q13" value="5"> 5
+            </div>
+            <div class="question">
+                <label>5. Program stimulates us to further acquire skills and knowledge in the domain.</label>
+                <input type="radio" name="q14" value="1"> 1
+                <input type="radio" name="q14" value="2"> 2
+                <input type="radio" name="q14" value="3"> 3
+                <input type="radio" name="q14" value="4"> 4
+                <input type="radio" name="q14" value="5"> 5
+            </div>
+            <div class="question">
+                <label>6. I have developed the ability to create innovative business solutions.</label>
+                <input type="radio" name="q15" value="1"> 1
+                <input type="radio" name="q15" value="2"> 2
+                <input type="radio" name="q15" value="3"> 3
+                <input type="radio" name="q15" value="4"> 4
+                <input type="radio" name="q15" value="5"> 5
+            </div>
+            Any other suggestions for improvement :<textarea placeholder="enter suggestion"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

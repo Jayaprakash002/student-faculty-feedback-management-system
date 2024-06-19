@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .question {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>LIBRARY FEEDBACK FORM (AFB-06) </h2>
+        Directions:
+For each item please indicate your level of agreement with the following statement by choosing YES and NO. 
+
+<form action="11.2_process_feedback.php" method="post">
+    <input type="hidden" name="feedback_name" value="LIBRARY FEEDBACK">
+            <div class="question">
+                <label>A. LIBRARY</label><br>
+                <label>1. How often do you visit the Library  </label>
+                <input type="radio" name="q1" value="regular"> Regular
+                <input type="radio" name="q1" value="Occasionally">Occasionally
+            </div>
+            <div class="question">
+                <label>2. Are the required number of titles in your Subject available in the Library.</label>
+                <input type="radio" name="q2" value="YES"> YES
+                <input type="radio" name="q2" value="NO"> NO
+            </div>
+            <div class="question">
+                <label>3. Are you satisfied with the cataloguing and arrangement of books in the Library.</label>
+                <input type="radio" name="q3" value="YES"> YES
+                <input type="radio" name="q3" value="NO"> NO
+            </div>
+            <div class="question">
+                <label>4. Are you satisfied with the available Reading space in the Library.</label>
+                <input type="radio" name="q4" value="YES"> YES
+                <input type="radio" name="q4" value="NO"> NO
+            </div>
+
+            <div class="question">
+                <label>5. Are the Library Staff co-operative and helpful.</label>
+                <input type="radio" name="q5" value="YES"> YES
+                <input type="radio" name="q5" value="NO"> NO
+            </div>
+            <div class="question">
+                <label>6. Are you able make use of Xerox facility in the Library.</label>
+                <input type="radio" name="q6" value="YES"> YES
+                <input type="radio" name="q6" value="NO"> NO
+            </div>
+            <div class="question">
+                <label>B. INTERNET CENTER</label>
+                <label>1. Are you able to access Internet Centre as and when you require.</label>
+                <input type="radio" name="q7" value="YES"> YES
+                <input type="radio" name="q7" value="NO"> NO
+            </div>
+            <div class="question">
+                
+                <label>2. Are you making use of educational online resources.	</label>
+                <input type="radio" name="q8" value="YES"> YES
+                <input type="radio" name="q8" value="NO"> NO
+            </div>
+            
+            <div class="question">
+                <label>3. Are there enough number of nodes Available in the Internet Centre.</label>
+                <input type="radio" name="q9" value="YES"> YES
+                <input type="radio" name="q9" value="NO"> NO
+            </div>
+            <div class="question">
+                <label>4. Are the Net centre staff co-operative and helpful.</label>
+                <input type="radio" name="q10" value="YES"> YES
+                <input type="radio" name="q10" value="NO"> NO
+            </div>
+            
+            Any other suggestions for improvement :<textarea placeholder="enter suggestion"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

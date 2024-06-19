@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .question {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>STUDENTS FEEDBACK (AFB-01)</h2>
+        Directions:
+For each item please indicate your level of agreement with the following statement by choosing a score between 1 and 5. A Higher score indicates a stronger agreement with the statement.
+
+<form action="11.2_process_feedback.php" method="post">
+    <input type="hidden" name="feedback_name" value="STUDENT FEEDBACK">
+            <div class="question">
+                <label>A. Course Content</label><br>
+                <label>1. The teacher covers the entire syllabus.</label>
+                <input type="radio" name="q1" value="1"> 1
+                <input type="radio" name="q1" value="2"> 2
+                <input type="radio" name="q1" value="3"> 3
+                <input type="radio" name="q1" value="4"> 4
+                <input type="radio" name="q1" value="5"> 5
+            </div>
+            <div class="question">
+                <label>2. The teacher discusses topics in detail.</label>
+                <input type="radio" name="q2" value="1"> 1
+                <input type="radio" name="q2" value="2"> 2
+                <input type="radio" name="q2" value="3"> 3
+                <input type="radio" name="q2" value="4"> 4
+                <input type="radio" name="q2" value="5"> 5
+            </div>
+            <div class="question">
+                <label>3. The teacher possesses deep knowledge of the subject taught.</label>
+                <input type="radio" name="q3" value="1"> 1
+                <input type="radio" name="q3" value="2"> 2
+                <input type="radio" name="q3" value="3"> 3
+                <input type="radio" name="q3" value="4"> 4
+                <input type="radio" name="q3" value="5"> 5
+            </div>
+            <div class="question">
+                <label>4. The teacher communicates clearly.</label>
+                <input type="radio" name="q4" value="1"> 1
+                <input type="radio" name="q4" value="2"> 2
+                <input type="radio" name="q4" value="3"> 3
+                <input type="radio" name="q4" value="4"> 4
+                <input type="radio" name="q4" value="5"> 5
+            </div>
+            <div class="question">
+                <label>5. The teacher inspires me by his/her knowledge in the subject.</label>
+                <input type="radio" name="q5" value="1"> 1
+                <input type="radio" name="q5" value="2"> 2
+                <input type="radio" name="q5" value="3"> 3
+                <input type="radio" name="q5" value="4"> 4
+                <input type="radio" name="q5" value="5"> 5
+            </div>
+            <div class="question">
+                <label>6. Overall rating on the subject.</label>
+                <input type="radio" name="q6" value="1"> 1
+                <input type="radio" name="q6" value="2"> 2
+                <input type="radio" name="q6" value="3"> 3
+                <input type="radio" name="q6" value="4"> 4
+                <input type="radio" name="q6" value="5"> 5
+            </div>
+
+            <div class="question">
+                <label>B. Teaching-Learning Process</label><br>
+                <label>1. The teacher is punctual to the class.</label>
+                <input type="radio" name="q7" value="1"> 1
+                <input type="radio" name="q7" value="2"> 2
+                <input type="radio" name="q7" value="3"> 3
+                <input type="radio" name="q7" value="4"> 4
+                <input type="radio" name="q7" value="5"> 5
+            </div>
+            <div class="question">
+                <label>2. The teacher used aids(PPT, Smart Board, White Board).</label>
+                <input type="radio" name="q8" value="1"> 1
+                <input type="radio" name="q8" value="2"> 2
+                <input type="radio" name="q8" value="3"> 3
+                <input type="radio" name="q8" value="4"> 4
+                <input type="radio" name="q8" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>3. The teacher engages the class for the full duration and completes the course in time.</label>
+                <input type="radio" name="q9" value="1"> 1
+                <input type="radio" name="q9" value="2"> 2
+                <input type="radio" name="q9" value="3"> 3
+                <input type="radio" name="q9" value="4"> 4
+                <input type="radio" name="q9" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>4. The teacher comes fully prepared for the class.</label>
+                <input type="radio" name="q10" value="1"> 1
+                <input type="radio" name="q10" value="2"> 2
+                <input type="radio" name="q10" value="3"> 3
+                <input type="radio" name="q10" value="4"> 4
+                <input type="radio" name="q10" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>5. The teacher provides guidance counseling  in academic and non-academic matters in/out side the class.</label>
+                <input type="radio" name="q11" value="1"> 1
+                <input type="radio" name="q11" value="2"> 2
+                <input type="radio" name="q11" value="3"> 3
+                <input type="radio" name="q11" value="4"> 4
+                <input type="radio" name="q11" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>6. The teacher encourages participation and discussion in class (Teacher-Student, Student-Student).</label>
+                <input type="radio" name="q12" value="1"> 1
+                <input type="radio" name="q12" value="2"> 2
+                <input type="radio" name="q12" value="3"> 3
+                <input type="radio" name="q12" value="4"> 4
+                <input type="radio" name="q12" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>7. The teacher discussed the Case lets as per the lesson plan.</label>
+                <input type="radio" name="q13" value="1"> 1
+                <input type="radio" name="q13" value="2"> 2
+                <input type="radio" name="q13" value="3"> 3
+                <input type="radio" name="q13" value="4"> 4
+                <input type="radio" name="q13" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>8. The teacher  has given group wise assignments.</label>
+                <input type="radio" name="q14" value="1"> 1
+                <input type="radio" name="q14" value="2"> 2
+                <input type="radio" name="q14" value="3"> 3
+                <input type="radio" name="q14" value="4"> 4
+                <input type="radio" name="q14" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>9. The teacher used the video lecturers as per lesson plan.</label>
+                <input type="radio" name="q15" value="1"> 1
+                <input type="radio" name="q15" value="2"> 2
+                <input type="radio" name="q15" value="3"> 3
+                <input type="radio" name="q15" value="4"> 4
+                <input type="radio" name="q15" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>10. The teacher pays attention to academically weaker students as well.</label>
+                <input type="radio" name="q16" value="1"> 1
+                <input type="radio" name="q16" value="2"> 2
+                <input type="radio" name="q16" value="3"> 3
+                <input type="radio" name="q16" value="4"> 4
+                <input type="radio" name="q16" value="5"> 5
+            </div>
+            <div class="question">
+                
+                <label>11. The teacher relates the course material with real world situations.</label>
+                <input type="radio" name="q17" value="1"> 1
+                <input type="radio" name="q17" value="2"> 2
+                <input type="radio" name="q17" value="3"> 3
+                <input type="radio" name="q17" value="4"> 4
+                <input type="radio" name="q17" value="5"> 5
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

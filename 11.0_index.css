@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f8f8; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #4326e4; /* Vibrant orange heading color */
+}
+
+p {
+    color: #777; /* Dark gray paragraph color */
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 30px;
+    border: 2px solid #e44d26; /* Orange button border */
+    border-radius: 8px;
+    background-color: #2692e4; /* Orange button background color */
+    color: #fff; /* White button text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buttons a:hover {
+    background-color: #d04323; /* Darker orange on hover */
+}
+
+.buttons a img {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Adjust image height */
+    margin-bottom: 10px; /* Add spacing between image and text */
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page for Faculty</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #48b9dfba;
+            font-family: 'Arial';
+        }
+
+        h2 {
+            color: #694c4c;
+            text-align: center;
+        }
+
+        .login {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            margin-top: 20px;
+            padding: 80px;
+            background: linear-gradient(to right, #007bff, #00bfff);
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        #login {
+            background-color: #b30042;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #login:hover {
+            background-color: #004080;
+        }
+
+        #check {
+            margin-right: 5px;
+        }
+
+        span {
+            color: #fff;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: #34db7a;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Login Page for Faculty</h2><br>
+    <div class="login">
+        <form action="11.3_faculty_login.php" method="post">
+            <label>User Name</label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username" required>
+            <br><br>
+            <label>Password</label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password" required>
+            <br><br>
+            <input type="submit" id="login" value="Log In">
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <br><br>
+            <a href="11.0_index.html" class="button">Back</a>
+        </form>
+    </div>
+</body>
+
+</html>

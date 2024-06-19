@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page for Chairman</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f9fabb;
+            font-family: 'Arial';
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .login {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            margin-top: 20px;
+            padding: 80px;
+            background: linear-gradient(to right, #3ab0d1, #3caedc);
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        #login {
+            background-color: #bd2b2b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #login:hover {
+            background-color: #297ea9;
+        }
+
+        #check {
+            margin-right: 5px;
+        }
+
+        span {
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: #2ebd2b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #cb8989;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Login Page for Chairman</h2><br>
+    <div class="login">
+        <form action="11.6_chairman_login.php" method="post">
+            <label>User Name</label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username" required>
+            <br><br>
+            <label>Password</label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password" required>
+            <br><br>
+            <input type="submit" id="login" value="Log In">
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <br><br>
+            <a href="11.0_index.html" class="button">Back</a>
+        </form>
+    </div>
+</body>
+
+</html>
